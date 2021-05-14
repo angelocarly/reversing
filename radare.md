@@ -53,13 +53,13 @@ radare2 <binary>
 ### Searching
 `/ <string>`
 
-Search for wide characters
-- `[0x00000000]> /w Hello`
-Case insensitive
-- `[0x0040488f]> /i Stallman`
-Hexadecimal escape sequence
-- `[0x00000000]> / \x7FELF`
-Hexadecimal string
-- `[0x00000000]> /x 7F454C46`
+- Search for wide characters: 
+  - `[0x00000000]> /w Hello`
+- Case insensitive
+  - `[0x0040488f]> /i Stallman`
+- Hexadecimal escape sequence
+  - `[0x00000000]> / \x7FELF`
+- Hexadecimal string
+  - `[0x00000000]> /x 7F454C46`
 
 The results are stored in the searches flag space
